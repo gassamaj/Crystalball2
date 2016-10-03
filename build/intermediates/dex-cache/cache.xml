@@ -2,55 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_9d285c9ad76ab20c9ad1917e0ad3ab44a526d982\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b9ae4d1596439a2a7c420ec679282fc4bac1183d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_4289fd8fb18fa6d43eb18e9cb18ce3db5df08b99\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_8c19851f86480cce0e9526918e77e2e67e9b5f5c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_2f70b910f0c6c5455bebc9c72b6271baac8cd879\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ce7208663f350aa70bec7823f77f0cd44df6bb15\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_f77a71b4bc99f3f2332b6a286c3b297c5371541f\classes.dex" />
-    </item>
-    <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
@@ -72,6 +23,20 @@
         <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_725d97737e075155a8303b7962ab559d8187d037\classes.dex" />
     </item>
     <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_9d285c9ad76ab20c9ad1917e0ad3ab44a526d982\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b9ae4d1596439a2a7c420ec679282fc4bac1183d\classes.dex" />
+    </item>
+    <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         revision="24.0.2"
@@ -84,6 +49,20 @@
         revision="24.0.2"
         sha1="a8ed923c511088f834fcd20db5d479a42b29710a">
         <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1aee4532470a06581356d9361442ea40a7f5a395\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_4289fd8fb18fa6d43eb18e9cb18ce3db5df08b99\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_8c19851f86480cce0e9526918e77e2e67e9b5f5c\classes.dex" />
     </item>
     <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
@@ -100,11 +79,25 @@
         <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_79045c94f4607409bc30e360b286683ccac9e874\classes.dex" />
     </item>
     <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_2f70b910f0c6c5455bebc9c72b6271baac8cd879\classes.dex" />
+    </item>
+    <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.2"
         sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
         <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_2554c3c75eab2a375aec12526e53250eeb03a756\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ce7208663f350aa70bec7823f77f0cd44df6bb15\classes.dex" />
     </item>
     <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
@@ -126,6 +119,13 @@
         revision="24.0.2"
         sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
         <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_a86fc4582fb3e21ee6e52d7fbe50c462251884a1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_f77a71b4bc99f3f2332b6a286c3b297c5371541f\classes.dex" />
     </item>
     <item
         jar="C:\Users\Student\AndroidStudioProjects\Crystalball2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
