@@ -9,7 +9,9 @@ import android.hardware.SensorManager;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.FloatMath;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -23,14 +25,26 @@ public class MainActivity extends AppCompatActivity {
     private SensorManager sensorManager;
     private Sensor accelerometer;
 
-    private float acceleration;
-    private float currentAcceleration;
-    private float previousAcceleration;
+    private double acceleration;
+    private double currentAcceleration;
+    private double previousAcceleration;
 
     private final SensorEventListener sensorListener = new SensorEventListener() {
         @Override
         public void onSensorChanged(SensorEvent event) {
+            double x = event.values[0];
+            double y = event.values[1];
+            double z = event.values[2];
 
+            previousAcceleration = currentAcceleration;
+            currentAcceleration = Math.sqrt(x * x + y * y + z *z);
+            double delta = currentAcceleration - previousAcceleration;
+            acceleration = acceleration * 0.9f + delta;
+
+            if(acceleration > 5){
+                Toast toast = Toast.makeText(getApplication(), "Device has shaken", Toast.LENGTH_SHORT);
+                toast.show();
+            }
         }
 
         @Override
@@ -52,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         accelerometer =  sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
-        acceleration = 0.0f;
+        acceleration = 0.0;
         currentAcceleration = SensorManager.GRAVITY_EARTH;
         previousAcceleration = SensorManager.GRAVITY_EARTH;
 
@@ -66,11 +80,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        sensorManager.registerListener(sensorListener, accelerometer,SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        sensorManager.registerListener(sensorListener, accelerometer,SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
