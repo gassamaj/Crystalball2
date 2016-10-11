@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private double currentAcceleration;
     private double previousAcceleration;
 
+
     private final SensorEventListener sensorListener = new SensorEventListener() {
         @Override
         public void onSensorChanged(SensorEvent event) {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             if(acceleration > 5){
                 Toast toast = Toast.makeText(getApplication(), "Device has shaken", Toast.LENGTH_SHORT);
                 toast.show();
+                mediaPlayer.start();
             }
         }
 
@@ -66,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mediaPlayer = MediaPlayer.create(this,R.raw.cricketsound);
-        mediaPlayer.start();
+
 
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
